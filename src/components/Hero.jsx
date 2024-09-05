@@ -2,8 +2,8 @@ import React from 'react'
 
 const Hero = () => {
   return (
-    <section>
-      <div className="hero">
+    <section className='mb-3'>
+      <div className="bg-pink">
         <div className="container mb-3">
 
         <div className="row gap-2 between align-center">
