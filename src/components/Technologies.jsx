@@ -1,6 +1,7 @@
 import React from 'react'
 
 const Technologies = () => {
+ 
   return (
     <section className="mb-3">
       <div className="container">
@@ -9,10 +10,10 @@ const Technologies = () => {
         </h3>
         <div className="row justify-content-between align-items-center gap-2 mb-3">
           <div className="col-6">
-            <div
-              className="bg-yellow"
-              style={{ height: "400px" }}
-            ></div>
+            <div className="bg-yellow">
+
+           
+            </div>
           </div>
           <div className="col-3">
             <div>

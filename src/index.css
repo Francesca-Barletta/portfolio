@@ -11,8 +11,9 @@
 }
 
 .main-title{
-  font-size: 50px;
+  font-size: 60px;
   color:white;
+  font-weight: 700;
 }
 .bg-pink{
   background-color: #FC83A2;
@@ -39,6 +40,7 @@ padding:30px 0;
 
 .btn-green{
   background-color: #B8E6DB;
+  font-weight: 700;
   color:white;
 }
 .btn-yellow{
@@ -53,7 +55,8 @@ padding:30px 0;
   background-color: #1496A4;
 }
 .second-title{
-  font-size: 30px;
+  font-size: 44px;
+  font-weight: 700;
 }
 .light-blue{
   color: #B8E6DB;

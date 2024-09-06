@@ -10,12 +10,12 @@ const Hero = () => {
       <div className="bg-pink">
         <div className="container mb-3">
 
-        <div className="row gap-2 justify-content-between align-items-center">
-          <div className="col-5">
-            <h1 className="main-title">Ciao!, sono Francesca Barletta</h1>
-            <h3 className="sub-title">Jr Full Stack Web Developer</h3>
+        <div className="row row-cols-1 row-cols-md-2 justify-content-between align-items-center">
+          <div className="col">
+            <h1 className="main-title">Ciao!,<br/>sono Francesca Barletta</h1>
+            <h2 className="sub-title">Jr Full Stack Web Developer</h2>
           </div>
-          <div className="col-6 d-flex justify-content-center">
+          <div className="col d-flex justify-content-center">
             <div className="hero-img-box">
               <img src={backImage} alt="immagine"className='w-100 mt-3' />
               <img src={myHero} alt="immagine"className='w-100 mt-3 my-hero-img' />
