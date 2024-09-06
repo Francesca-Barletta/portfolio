@@ -3,6 +3,7 @@ import Navbar from "./components/Navbar"
 import Homepage from "./pages/Homepage"
 import AboutPage from "./pages/AboutPage"
 import ProjectPage from "./pages/ProjectPage"
+import Footer from "./components/Footer"
 
 function App() {
 
@@ -18,6 +19,7 @@ function App() {
         <Route path="/projects" element ={<ProjectPage/>}/>
 
       </Routes>
+      <Footer/>
       </Router>
 
 

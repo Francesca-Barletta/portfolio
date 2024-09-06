@@ -6,9 +6,9 @@ const projects = [
         tecnologie: [
             "html5", "css3", "vue.js", "vite", "axios", "javascript"
         ],
-        copertina: "../assets/images/progetti/boolando.png",
+        copertina: "/assets/progetti/boolando.png",
         immagini: [
-            "../assets/images/progetti/boolando.png"
+            "/assets/progetti/boolando.png"
         ],
         repo: "https://github.com/Francesca-Barletta/vite-boolando"
     },
@@ -19,9 +19,9 @@ const projects = [
         tecnologie: [
             "html5", "css3", "vue.js", "bootstrap", "scss", "axios", "javascript", "php", "laravel", "mysql"
         ],
-        copertina: "../assets/images/progetti/Fooder.png",
+        copertina: "/assets/progetti/Fooder.png",
         immagini: [
-            "../assets/images/progetti/Fooder.png", "../assets/images/progetti/fooder-ricerca.png", "../assets/images/progetti/fooder-menu.png",
+            "/assets/progetti/Fooder.png", "/assets/progetti/fooder-ricerca.png", "/assets/progetti/fooder-menu.png",
         ],
         repo: "https://github.com/Francesca-Barletta/fooder",
     },
@@ -32,9 +32,9 @@ const projects = [
         tecnologie: [ 
             "html5", "css3", "vue.js", "scss", "vite", "axios", "javascript",
         ],
-        copertina: "../assets/images/progetti/boolflix1.png",
+        copertina: "/assets/progetti/boolflix1.png",
         immagini: [
-            "../assets/images/progetti/boolflix1.png", "../assets/images/progetti/boolflix-serie-tv.png", "../assets/images/progetti/boolflix-lista.png",
+            "/assets/progetti/boolflix1.png", "/assets/progetti/boolflix-serie-tv.png", "/assets/progetti/boolflix-lista.png",
         ],
         repo: "https://github.com/Francesca-Barletta/vite-boolflix",
     },
@@ -45,9 +45,9 @@ const projects = [
         tecnologie: [
             "html5", "css3", "vue.js", "scss", "vue", "javascript", "php", "laravel", "mysql"
         ],
-        copertina: "../assets/images/progetti/game-creator-home.png",
+        copertina: "/assets/progetti/game-creator-home.png",
         immagini: [
-            "../assets/images/progetti/game-creator-home.png", "../assets/images/progetti/game-creator.png",
+            "/assets/progetti/game-creator-home.png", "/assets/progetti/game-creator.png",
         ],
         repo: "https://github.com/Francesca-Barletta",
     },
@@ -58,9 +58,9 @@ const projects = [
         tecnologie: [
               "html5", "css3", "vue.js", "vite", "scss", "javascript"
         ],
-        copertina: "../assets/images/progetti/rexg-ex-mid.png",
+        copertina: "/assets/progetti/rexg-ex-mid.png",
         immagini: [
-            "../assets/images/progetti/rexg-ex-mid.png",
+            "/assets/progetti/rexg-ex-mid.png",
         ],
         repo: "https://github.com/Francesca-Barletta/proj-html-vuejs",
     },
@@ -71,9 +71,9 @@ const projects = [
         tecnologie: [
              "html5", "css3", "vue.js", "vite", "javascript"
         ],
-        copertina: "../assets/images/progetti/boolzapp.png",
+        copertina: "/assets/progetti/boolzapp.png",
         immagini: [
-            "../assets/images/progetti/boolzapp.png",
+            "/assets/progetti/boolzapp.png",
         ],
         repo: "https://github.com/Francesca-Barletta/vue-boolzapp",
     },
@@ -84,9 +84,9 @@ const projects = [
         tecnologie: [
             "html5", "php", "laravel", "mysql"
         ],
-        copertina: "../assets/images/progetti/laravel-dc-comics.png",
+        copertina: "/assets/progetti/laravel-dc-comics.png",
         immagini: [
-            "../assets/images/progetti/laravel-dc-comics.png",
+            "/assets/progetti/laravel-dc-comics.png",
         ],
         repo: "https://github.com/Francesca-Barletta/laravel-dc-comics",
     },
@@ -97,9 +97,9 @@ const projects = [
         tecnologie: [
             "php", "css3", "Javascript", "vue.js"
         ],
-        copertina:  "../assets/images/progetti/dischi.png",
+        copertina:  "/assets/progetti/dischi.png",
         immagini: [
-            "../assets/images/progetti/dischi.png",
+            "/assets/progetti/dischi.png",
         ],
         repo: "https://github.com/Francesca-Barletta/php-dischi-json"
     },
@@ -110,9 +110,9 @@ const projects = [
         tecnologie: [
             "html", "css3"
         ],
-        copertina: "../assets/images/progetti/dropbox.png",
+        copertina: "/assets/progetti/dropbox.png",
         immagini: [
-            "../assets/images/progetti/dropbox.png",   
+            "/assets/progetti/dropbox.png",   
         ],
         repo: "https://github.com/Francesca-Barletta/htmlcss-dropbox"
         
@@ -124,9 +124,9 @@ const projects = [
         tecnologie: [
             "html", "css3"
         ],
-        copertina: "../assets/images/progetti/discord.png",
+        copertina: "/assets/progetti/discord.png",
         immagini: [
-            "../assets/images/progetti/discord.png",   
+            "/assets/progetti/discord.png",   
         ],
         repo: "https://github.com/Francesca-Barletta/htmlcss-discord"
         

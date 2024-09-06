@@ -1,10 +1,8 @@
 import React from 'react'
-import image from '../assets/images/16.png'
-import heroImg from '../assets/images/hero.png'
+
 
 const Hero = () => {
-    const backImage = image;
-    const myHero = heroImg;
+   
   return (
     <section className='mb-3'>
       <div className="bg-pink">
@@ -17,21 +15,18 @@ const Hero = () => {
           </div>
           <div className="col d-flex justify-content-center">
             <div className="hero-img-box">
-              <img src={backImage} alt="immagine"className='w-100 mt-3' />
-              <img src={myHero} alt="immagine"className='w-100 mt-3 my-hero-img' />
+              <img src='/assets/app-images/Group-16.png' alt="immagine"className='w-100 mt-3' />
+              <img src='/assets/app-images/myHero.png' alt="immagine"className='w-100 mt-3 my-hero-img' />
             </div>
           </div>
         </div>
         </div>
       </div>
       <div className="container">
-        <p className='mb-3'>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus
-          ipsam minus repellat vel, quaerat maxime non vitae inventore
-          distinctio expedita aliquid voluptas laborum error qui explicabo.
-          Corporis veritatis ducimus impedit!
+        <p className='mb-3 dark-blue text-center sub-text'>
+          Sono una creativa, mi piace la musica il ballo e la grafica, ed è stato proprio studiando grafica che mi sono approcciata al mondo della programmazione. Recentemente ho desico di mettermi alla prova ed ho completato con successo il corso intensivo di sei mesi con Boolean Academy per Full Stack Web Developer, finito il corso sto ampliando il mio bagaglio di conoscenze tecniche studiando React e Figma, mi sento portata per il lato frontend ma sono aperta anche a lavorare come backend developer, e non vedo l'ora di mettere in pratica in un ambiente lavorativo le mie conoscenze e crescere professionalmente!
         </p>
-        <button className="btn btn-green">Progetti</button>
+        <button className="my-btn btn-green">Progetti</button>
       </div>
     </section>
   );

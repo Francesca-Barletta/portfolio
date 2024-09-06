@@ -1,51 +1,42 @@
 import React from 'react'
-
+import projects from '../projects';
 const HomeProjects = () => {
+  const firstThreeProj = projects.slice(0,3);
+  console.log(firstThreeProj)
   return (
     <>
-    <section className="bg-pink p-3 mb-3">
+    <section className="bg-pink p-3 flex-grow-1 ">
       <div className="container">
-        <h3 className="second-title light-blue text-center mb-3 ">
-          Qui ci sono i progetti
+        <h3 className="second-title light-blue text-center my-5 ">
+          Alcuni dei miei progetti:
         </h3>
-        <div className="row between">
+        <div className="row row-cols-1 row-cols-md-2 row-cols-lg-3 justify-content-around my-5">
+        {firstThreeProj.map((project) =>{
+          return(
 
-        <div className="col-4">
-          <div className="card d-flex center align-center between column">
-            <div className="card-img-box">
-                <img src="" alt="immagineprog" />
+        <div key={project.id} className="col">
+        
+          <div className="my-card">
+            <div className="my-card-img-box mb-2">
+                <img src={project.copertina} alt={project.nome}  className='my-card-img'/>
             </div>
-            <h4>Titolo</h4>
-            <p>progetto descrizione</p>
-            <button className='btn btn-yellow'>vai al progetto</button>
+            <h4 className='text-white mt-3'>{project.nome}</h4>
+            <p className='text-white text-center'>{project.descrizione}</p>
+            <a href={project.repo} target="_blank" className='text-decoration-none dark-blue fw-bold mb-5'>Vai alla repo su GitHub</a>
+            <button className='my-btn btn-yellow'>vai al progetto</button>
           </div>
         </div>
-        <div className="col-4">
-          <div className="card d-flex center align-center between column">
-            <div className="card-img-box">
-                <img src="" alt="immagineprog" />
-            </div>
-            <h4>Titolo</h4>
-            <p>progetto descrizione</p>
-            <button className='btn btn-yellow'>vai al progetto</button>
-          </div>
+          )
+        })}
+       
         </div>
-        <div className="col-4">
-          <div className="card d-flex center align-center between column">
-            <div className="card-img-box">
-                <img src="" alt="immagineprog" />
-            </div>
-            <h4>Titolo</h4>
-            <p>progetto descrizione</p>
-            <button className='btn btn-yellow'>vai al progetto</button>
-          </div>
-        </div>
+        <div className='d-flex justify-content-center my-5'>
+
+        <button className='my-btn btn-green'>Vedi tutti progetti</button>
         </div>
       </div>
     </section>
-    <section className='text-center p-3 mb-3'>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit atque, iure architecto nulla repellat quidem amet eaque ut ad sint eos cum modi illum explicabo. Voluptate error inventore consequuntur ratione?</p>
-    </section>
+    
     </>
   );
 }
