@@ -59,7 +59,9 @@ padding:30px 0;
   color: white;
   border: 2px solid white;
 }
-
+.bg-green{
+  background-color: #B8E6DB;
+}
 .bg-yellow{
   background-color: #FCE194;
 }
@@ -121,10 +123,10 @@ padding:30px 0;
 }
 
 .icons-left{
-  left:-15%;
+  left:-10%;
 }
 .icons-right{
-  right: -15%;
+  right: -10%;
   bottom:5px
 }
 .icon-box{

@@ -4,6 +4,8 @@ import Homepage from "./pages/Homepage"
 import AboutPage from "./pages/AboutPage"
 import ProjectPage from "./pages/ProjectPage"
 import Footer from "./components/Footer"
+import SingleProject from "./pages/SingleProject"
+import ErrorPage from "./pages/ErrorPage"
 
 function App() {
 
@@ -17,6 +19,8 @@ function App() {
         <Route path="/" element ={<Homepage/>}/>
         <Route path="/about" element ={<AboutPage/>}/>
         <Route path="/projects" element ={<ProjectPage/>}/>
+        <Route path="/projects/:id" element={<SingleProject/>}/>
+        <Route path="*" element={<ErrorPage/>}/>
 
       </Routes>
       <Footer/>

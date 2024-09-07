@@ -2,7 +2,7 @@ import React from 'react'
 
 const AboutPage = () => {
   return (
-    <div className='container flex-grow-1 text-center py-5'>
+    <div className='container flex-grow-1 mt-5 text-center py-5'>
       <h1 className='dark-blue mb-5'>Mi presento!</h1>
       <p className='dark-blue sub-text'>Ho una passione per la musica e in passato ho suonato la
 chitarra elettrica in una band femminile, nel 2017 ho scoperto il

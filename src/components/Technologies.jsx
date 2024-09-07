@@ -11,7 +11,7 @@ const Technologies = () => {
     <section className="mb-3">
       <div className="container">
         <h3 className="second-title text-center mb-3 dark-blue">
-          Le Tecnologie ultilizzate:
+          Le Tecnologie utilizzate:
         </h3>
         <div className="row justify-content-end position-relative align-items-center my-5">
         
