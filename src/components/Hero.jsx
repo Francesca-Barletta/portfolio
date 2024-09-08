@@ -1,4 +1,5 @@
 import React from 'react'
+import { RiFileDownloadFill } from "react-icons/ri";
 
 
 const Hero = () => {
@@ -6,16 +7,17 @@ const Hero = () => {
   return (
     <section className='mb-3'>
       <div className="bg-pink">
-        <div className="container mb-3">
+        <div className="container mb-3 pt-4">
 
-        <div className="row row-cols-1 row-cols-md-2 justify-content-between align-items-center">
-          <div className="col">
+        <div className="row row-gap-3 row-cols-1 row-cols-md-2 justify-content-between">
+          <div className="col d-flex flex-column justify-content-around align-items-start ">
             <h1 className="main-title">Ciao!,<br/>sono Francesca Barletta</h1>
             <h2 className="sub-title">Jr Full Stack Web Developer</h2>
+            <a href="/assets/files/Francesca-Barletta.pdf" download="cv_Francesca-Barletta" className='mb-1 text-decoration-none w-75 my-btn text-center btn-yellow'><RiFileDownloadFill/>Scarica il mio CV</a>
           </div>
-          <div className="col d-flex justify-content-center">
+          <div className="col h-100 d-flex justify-content-center">
             <div className="hero-img-box">
-              <img src='/assets/app-images/Group-16.png' alt="immagine"className='w-100 mt-3' />
+              <img src='/assets/app-images/Group-16.png' alt="immagine"className='w-100 mt-3 my-hero-bg' />
               <img src='/assets/app-images/myHero.png' alt="immagine"className='w-100 mt-3 my-hero-img' />
             </div>
           </div>

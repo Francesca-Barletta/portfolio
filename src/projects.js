@@ -15,7 +15,7 @@ const projects = [
     {
         id: 2,
         nome: "Fooder",
-        descrizione: " Esercitazione di fine corso full stack in team, basato sulla contruzione di un sito per food delivery, dove è possibile sia per il cliente ordinare e pagare, sia per il ristoratore, registrare i suoi ristoranti, modificare ed aggiungere menù, ricevere ordini e controllare le statistiche di vendita delle sue attività",
+        descrizione: " Esercitazione di fine corso full stack in team, basato sulla creazione di un sito per food delivery, dove è possibile sia per il cliente ordinare e pagare, sia per il ristoratore, registrare i suoi ristoranti, modificare ed aggiungere menù, ricevere ordini e controllare le statistiche di vendita delle sue attività",
         tecnologie: [
             "html5", "css3", "vue.js", "bootstrap", "scss", "axios", "javascript", "php", "laravel", "mysql"
         ],

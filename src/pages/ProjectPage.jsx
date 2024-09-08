@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import {useNavigate} from 'react-router-dom'
 import projects from '../projects'
 
@@ -6,13 +6,16 @@ import projects from '../projects'
 const ProjectPage = () => {
   const navigate = useNavigate();
   const goToProject = (id) => {
-    navigate(`/projects/${id}`)
+       navigate(`/projects/${id}`)
   }
+  useEffect(() => {
+    window.scrollTo(0, 0); 
+  }, []);
   return (
-    <section className='flex-grow-1 bg-green pt-5'>
-      <div className="container">
-        <h1 className='text-center dark-blue mb-5'>I miei Progetti:</h1>
-        <div className="row row-col-1 row-cols-md-2 row-cols-lg-3 row-gap-5">
+    <section className='flex-grow-1 bg-yellow pt-5'>
+      <div className="container my-5">
+        <h1 className='text-center main-title dark-blue mb-5'>I miei Progetti</h1>
+        <div className="row row-col-1 row-cols-md-2 row-cols-lg-3 justify-content-center row-gap-5 my-5">
           {
             projects.map((project) => {
               return(

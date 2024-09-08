@@ -1,13 +1,18 @@
 import React from 'react'
 import projects from '../projects';
+import { useNavigate, Link } from 'react-router-dom';
 const HomeProjects = () => {
   const firstThreeProj = projects.slice(0,3);
-  console.log(firstThreeProj)
+ 
+  const navigate = useNavigate();
+  const goToProject = (id) => {
+       navigate(`/projects/${id}`)
+  }
   return (
     <>
     <section className="bg-pink p-3 flex-grow-1 ">
       <div className="container">
-        <h3 className="second-title light-blue text-center my-5 ">
+        <h3 className="second-title text-white text-center my-5 ">
           Alcuni dei miei progetti:
         </h3>
         <div className="row row-cols-1 row-cols-md-2 row-cols-lg-3 justify-content-around my-5">
@@ -17,13 +22,13 @@ const HomeProjects = () => {
         <div key={project.id} className="col">
         
           <div className="my-card">
-            <div className="my-card-img-box mb-2">
+            <div className="my-card-img-box mb-5">
                 <img src={project.copertina} alt={project.nome}  className='my-card-img'/>
             </div>
-            <h4 className='text-white mt-3'>{project.nome}</h4>
-            <p className='text-white text-center'>{project.descrizione}</p>
-            <a href={project.repo} target="_blank" className='text-decoration-none dark-blue fw-bold mb-5'>Vai alla repo su GitHub</a>
-            <button className='my-btn btn-yellow'>vai al progetto</button>
+            <h3 className='text-white fw-bold'>{project.nome}</h3>
+           
+            <a href={project.repo} target="_blank" className='text-decoration-none repo-anchor dark-blue fw-bold'>Vai alla repo su GitHub</a>
+            <button className='my-btn btn-yellow ' onClick={() => {goToProject(project.id)}}>vai al progetto</button>
           </div>
         </div>
           )
@@ -31,8 +36,8 @@ const HomeProjects = () => {
        
         </div>
         <div className='d-flex justify-content-center my-5'>
-
-        <button className='my-btn btn-green'>Vedi tutti progetti</button>
+        <Link to="/projects" className='text-decoration-none my-btn btn-green'>Vedi tutti progetti</Link>
+        
         </div>
       </div>
     </section>
