@@ -13,7 +13,7 @@ const Hero = () => {
           <div className="col d-flex flex-column justify-content-around align-items-start ">
             <h1 className="text-light">Ciao!,<br/>sono Francesca Barletta</h1>
             <h2 className="">Jr Full Stack Web Developer</h2>
-            <a href="/assets/files/Francesca-Barletta.pdf" download="cv_Francesca-Barletta" className='mb-1 text-decoration-none d-flex my-btn text-center btn-yellow'><h6 className='fw-bold mb-0'><RiFileDownloadFill/> Scarica il mio CV</h6></a>
+            <a href="/assets/files/Francesca.Barletta.pdf" download="cv_Francesca-Barletta" className='mb-1 text-decoration-none d-flex my-btn text-center btn-yellow'><h6 className='fw-bold mb-0'><RiFileDownloadFill/> Scarica il mio CV</h6></a>
           </div>
           <div className="col d-flex justify-content-center">
             <div className="hero-img-box">
