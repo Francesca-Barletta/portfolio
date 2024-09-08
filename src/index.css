@@ -224,6 +224,9 @@ height:100%;
 .line-blue{
   display:none;
 }
+.nav-item:hover{
+  color: #B8E6DB;
+}
 @media (min-width: 768px){
   .my-hero-bg{
     top:30%;
