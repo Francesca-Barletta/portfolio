@@ -306,10 +306,13 @@ h4 {
   
 }
 }
+@media (min-width: 994px){
+  .my-hero-bg{
+    top:0;
+  }
+}
   @media (min-width: 1400px){
-    .my-hero-bg{
-      top:0;
-    }
+ 
     .icon-box{
       width: 100px;
     }
