@@ -6,15 +6,15 @@ const AboutPage = () => {
     <>
       <section className="bg-green">
         <div className="container flex-grow-1 my-5 text-center py-5">
-          <div className="position-relative">
-            <h2 className="dark-blue main-title mb-5">Mi presento!</h2>
+          <div className="position-relative my-5">
+            <h2 className="dark-blue mb-5">Mi presento!</h2>
             <img
               src="/assets/app-images/Group-10.png"
               className="about-ab-group"
               alt="immagine-astratta"
             />
           </div>
-          <p className="dark-blue sub-text pb-5">
+          <p className="dark-blue sub-text py-5">
             Ho una passione per la musica e in passato ho suonato la chitarra
             elettrica in una band femminile, nel 2017 ho scoperto il ballo
             country e sono diventata insegnante, inoltre ho da sempre una grande
@@ -46,15 +46,17 @@ const AboutPage = () => {
       <section className="bg-yellow">
         <div className="container flex-grow-1 my-5 text-center py-5">
           <div className="position-relative">
-            <h2 className="dark-blue main-title mb-5">La mia formazione</h2>
+            <h2 className="dark-blue mb-5">La mia formazione</h2>
             <img
               src="/assets/app-images/Group-17.png"
               className="form-ab-group"
               alt="immagine-astratta"
             />
           </div>
-          <ul className="row list-unstyled d-flex justify-content-around">
-            <li className="col-3 px-3">
+          <ul className="row row-cols-1 row-cols-md-2 row-cols-lg-4 row-gap-4 list-unstyled d-flex justify-content-around">
+            <li className="col px-3">
+              <div className="my-card">
+
               <h4 className="dark-blue fw-bold mb-3">Boolean Careers</h4>
               <h6 className="dark-blue fw-bold">Full Stack Web Developer</h6>
               <p className="dark-blue">
@@ -73,14 +75,16 @@ const AboutPage = () => {
                 <RiFileDownloadFill />
                  Scarica il certificato
               </a>
+              </div>
             </li>
-            <li className="col-3 px-3">
+            <li className="col px-3">
+              <div className="my-card">
+
               <h4 className="dark-blue fw-bold mb-3">Udemy</h4>
               <p className="dark-blue">
                 <span className="fw-bold">Anno: </span>2024
               </p>
-              <ul className="list-unstyled">
-                <li className="mb-3">
+             
                   <h6 className="dark-blue fw-bold">
                     Corso su React.js e Redux
                   </h6>
@@ -93,14 +97,11 @@ const AboutPage = () => {
                     download="react_francesca_barletta"
                     className="text-decoration-none  my-btn btn-green"
                   >
-                    <RiFileDownloadFill />
+                    <RiFileDownloadFill /> 
                       Scarica il certificato
                   </a>
-                </li>
-                <li>
+                
                   <h6 className="dark-blue fw-bold">Corso su Figma</h6>
-                </li>
-              </ul>
               <p className="dark-blue">
                 Corso base per disegnare siti web e mobile app su Figma.
               </p>
@@ -108,12 +109,16 @@ const AboutPage = () => {
                 href="/assets/files/figma-certificato.pdf"
                 download="figma_francesca_barletta"
                 className="text-decoration-none  my-btn btn-green"
-              >
+                >
                 <RiFileDownloadFill />
                 Scarica il certificato
               </a>
+            
+              </div>
             </li>
-            <li className="col-3 px-3">
+            <li className="col px-3">
+              <div className="my-card">
+
               <h4 className="dark-blue fw-bold mb-3">Gatto sul web</h4>
               <p className="dark-blue">
                 <span className="fw-bold">Anno: </span>2019
@@ -129,9 +134,12 @@ const AboutPage = () => {
                 <RiFileDownloadFill />
                 Scarica il certificato
               </a>
+              </div>
             </li>
 
-            <li className="col-3 px-3">
+            <li className="col px-3">
+              <div className="my-card">
+
               <h4 className="dark-blue fw-bold mb-3">CMFP Adriatico</h4>
               <p className="dark-blue">
                 <span className="fw-bold">Anno: </span>2009
@@ -141,6 +149,7 @@ const AboutPage = () => {
                 circa 6 mesi, dove ho imparato i fondamenti della grafica e
                 principalmente l’utilizzo di Adobe Photoshop.
               </p>
+              </div>
             </li>
           </ul>
         </div>

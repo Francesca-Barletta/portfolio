@@ -14,8 +14,8 @@ const ProjectPage = () => {
   return (
     <section className='flex-grow-1 bg-yellow pt-5'>
       <div className="container my-5">
-        <h1 className='text-center main-title dark-blue mb-5'>I miei Progetti</h1>
-        <div className="row row-col-1 row-cols-md-2 row-cols-lg-3 justify-content-center row-gap-5 my-5">
+        <h1 className='text-center dark-blue mb-5'>I miei Progetti</h1>
+        <div className="row row-cols-1 row-cols-md-2 row-cols-lg-3 justify-content-center row-gap-5 my-5">
           {
             projects.map((project) => {
               return(

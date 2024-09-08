@@ -12,10 +12,10 @@ const HomeProjects = () => {
     <>
     <section className="bg-pink p-3 flex-grow-1 ">
       <div className="container">
-        <h3 className="second-title text-white text-center my-5 ">
+        <h2 className="text-white text-center my-5 ">
           Alcuni dei miei progetti:
-        </h3>
-        <div className="row row-cols-1 row-cols-md-2 row-cols-lg-3 justify-content-around my-5">
+        </h2>
+        <div className="row row-cols-1 row-cols-md-2 row-cols-lg-3 row-gap-4 justify-content-around my-5">
         {firstThreeProj.map((project) =>{
           return(
 
@@ -27,8 +27,8 @@ const HomeProjects = () => {
             </div>
             <h3 className='text-white fw-bold'>{project.nome}</h3>
            
-            <a href={project.repo} target="_blank" className='text-decoration-none repo-anchor dark-blue fw-bold'>Vai alla repo su GitHub</a>
-            <button className='my-btn btn-yellow ' onClick={() => {goToProject(project.id)}}>vai al progetto</button>
+            <a href={project.repo} target="_blank" className='text-decoration-none repo-anchor text-light fw-bold'>Vai alla repo su GitHub</a>
+            <button className='my-btn btn-yellow ' onClick={() => {goToProject(project.id)}}>Vai al progetto</button>
           </div>
         </div>
           )
