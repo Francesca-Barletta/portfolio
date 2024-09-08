@@ -26,7 +26,7 @@ const Hero = () => {
       </div>
       <div className="container">
         <p className='mb-3 dark-blue text-center sub-text'>
-          Sono una creativa, mi piace la musica il ballo e la grafica, ed è stato proprio studiando grafica che mi sono approcciata al mondo della programmazione. Recentemente ho desico di mettermi alla prova ed ho completato con successo il corso intensivo di sei mesi con Boolean Academy per Full Stack Web Developer, finito il corso sto ampliando il mio bagaglio di conoscenze tecniche studiando React e Figma, mi sento portata per il lato frontend ma sono aperta anche a lavorare come backend developer, e non vedo l'ora di mettere in pratica in un ambiente lavorativo le mie conoscenze e crescere professionalmente!
+          Sono una creativa e studiando grafica mi sono avvicinata al mondo della programmazione. Di recente ho deciso di mettermi alla prova in questo campo ed ho completato con successo il corso intensivo di sei mesi con Boolean Academy per Full Stack Web Developer, finito il corso sto ampliando il mio bagaglio di conoscenze tecniche studiando React e Figma e non vedo l'ora di mettere in pratica le mie conoscenze sul lavoro!
         </p>
         <button className="my-btn mx-auto btn-green">Progetti</button>
       </div>

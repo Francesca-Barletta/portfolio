@@ -25,7 +25,7 @@ const AboutPage = () => {
             borse per una marca di alta moda, ho iniziato da semplice
             apprendista per poi arrivare a ricoprire il ruolo di responsabile,
             seppur in ambito totalmente diverso da quello che è la
-            programmazione questo lavoro mi ha insegnato la serietà sul lavoro,
+            programmazione questa esperienza mi ha insegnato la serietà sul lavoro,
             mi ha insegnato a lavorare in team e la gestione del tempo.
             <br />
             Quando lo scorso novembre l'attività ha chiuso ho deciso di prendere
