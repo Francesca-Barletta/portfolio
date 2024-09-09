@@ -49,7 +49,7 @@ const projects = [
         immagini: [
             "/assets/progetti/game-creator-home.png", "/assets/progetti/game-creator.png",
         ],
-        repo: "https://github.com/Francesca-Barletta",
+        repo: "https://github.com/Francesca-Barletta/game-creator",
     },
     {
         id: 5,
