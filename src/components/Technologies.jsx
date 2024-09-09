@@ -44,7 +44,7 @@ const Technologies = () => {
           <p className="sub-text">
             Per la programmazione lato front-end ho studiato ed utilizzato
             HTML5, CSS3, Bootstrap, Sass/scss, e Figma per struttura e stile,
-            come linguaggio si programmazione per la logica, Javascript e come
+            come linguaggio di programmazione per la logica, Javascript e come
             framework e librerie, Vue.js e React con Vite
           </p>
         </div>

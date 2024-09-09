@@ -1,6 +1,8 @@
 import React from 'react'
 import { TfiEmail } from "react-icons/tfi";
 import { FaPhoneAlt, FaLinkedin, FaMapMarkerAlt } from "react-icons/fa";
+import { FaHeart } from "react-icons/fa6";
+
 
 const Footer = () => {
   return (
@@ -14,7 +16,7 @@ const Footer = () => {
           <li><p><FaMapMarkerAlt/> Civitavecchia (RM)</p></li>
           </ul>
         </div>
-        <h5 className='yellow my-5 text-center'>Powered with &hearts;  by Francesca Barletta </h5>
+        <h5 className='yellow my-5 text-center'>Powered with <FaHeart />  by Francesca Barletta </h5>
     </div>
   )
 }
