@@ -1,13 +1,11 @@
 import React, {useEffect} from 'react'
-import {useNavigate} from 'react-router-dom'
+import {Link                                                                                                                                                                                                                                                             } from 'react-router-dom'
 import projects from '../projects'
 
 
 const ProjectPage = () => {
-  const navigate = useNavigate();
-  const goToProject = (id) => {
-       navigate(`/projects/${id}`)
-  }
+
+
   useEffect(() => {
     window.scrollTo(0, 0); 
   }, []);
@@ -27,7 +25,8 @@ const ProjectPage = () => {
                     <h3 className='mt-4 dark-blue'>{project.nome}</h3>
                 
                     <a href={project.repo} target="_blank" className='mb-3 text-decoration-none dark-blue fw-bold'>Repo GitHub</a>
-                    <button className='my-btn btn-green' onClick={() => {goToProject(project.id)}}>Vai al dettaglio</button>
+                    <Link className='my-btn btn-green text-decoration-none' to={`/projects/${project.id}`}>Vai al dettaglio</Link>
+                    
                   </div>
                 </div>
               )
