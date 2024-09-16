@@ -131,6 +131,20 @@ const projects = [
         repo: "https://github.com/Francesca-Barletta/htmlcss-discord"
         
     },
+    {
+        id: 11,
+        nome: "Pokékex",
+        descrizione: "Esercizio di pratica frontend, con salvataggio lista preferiti in local storage persistenti al refresh, è possibile selezionare un pokèmon dalla lista a disposizione, cercarlo digitando il nome o prendere un pokémon random cliccando il pulsante apposito",
+        tecnologie: [
+            "html", "bootstrap", "styled components", "react", "javascript", "jsx", "redux-toolkit"
+        ],
+        copertina: "/assets/progetti/pokedex.png",
+        immagini: [
+            "/assets/progetti/pokedex.png",   
+        ],
+        repo: "https://github.com/Francesca-Barletta/react-pokedex"
+        
+    },
 
 
 ];
